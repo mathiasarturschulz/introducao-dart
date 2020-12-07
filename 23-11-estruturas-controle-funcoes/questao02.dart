@@ -16,7 +16,7 @@ void questao() {
     idade = 0;
     pessoaAtual++;
 
-    stdout.write('\n=>NOVA IDADE\nInforme a idade da pessoa ' + pessoaAtual.toString() + ' (OBS: Parar de informar pessoas digite: -1): ');
+    stdout.write('\n=>NOVA IDADE\nInforme a idade da pessoa ' + pessoaAtual.toString() + ' (OBS: Parar de informar idades digite: -1): ');
     idade = int.tryParse(stdin.readLineSync());
 
     // validações
