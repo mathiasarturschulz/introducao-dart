@@ -19,4 +19,15 @@ class Produto {
   double get precoComDesconto {
     return preco - ((desconto / 100) * preco);
   }
+
+  /**
+   * toString da classe
+   */
+  String toString() {
+    return '= Nome: $nome'
+      + '\n= Desconto: R\$ $desconto'
+      + '\n= Preço (1 unidade): R\$ $preco'
+      + '\n= Preço (1 unidade c/ desconto): R\$ $precoComDesconto'
+    ;
+  }
 }

@@ -30,4 +30,14 @@ class VendaItem {
   set preco(double novoPreco) {
     if (novoPreco > 0) this._preco = novoPreco;
   }
+
+  /**
+   * toString da classe
+   */
+  String toString() {
+    return '+++ Item ${produto.codigo} '
+      + '\n${produto.toString()}'
+      + '\n= Quantidade: $quantidade'
+    ;
+  }
 }

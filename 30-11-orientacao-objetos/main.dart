@@ -51,26 +51,5 @@ Venda buscaInfoValoresDinamicos() {
  * Método responsável por apresentar a venda realizada
  */
 void apresentaCupomFiscal(Venda venda) {
-  print('================================================');
-  print('================= COPUM FISCAL =================');
-  print('================================================');
-  print('= Cliente: ' + venda.cliente.nome + ' - ' + venda.cliente.cpf);
-  print('================================================');
-
-  int key = 0;
-  for (var item in venda.itens) {
-
-    // TODO - ajustar para o toString da classe
-
-    print('= Item: ' + (++key).toString());
-    print('= Código: ' + item.produto.codigo.toString());
-    print('= Nome: ' + item.produto.nome);
-    print('= Desconto: ' + item.produto.desconto.toString());
-    print('= Preço Produto: ' + item.produto.preco.toString());
-    print('= Preço Produto (c/ desconto): ' + item.preco.toString());
-    print('= Quantidade: ' + item.quantidade.toString());
-    print('------------------------------------------------');
-  }
-  print('= Valor total: ' + venda.valorTotal.toString());
-  print('================================================');
+  print(venda.toString());
 }
