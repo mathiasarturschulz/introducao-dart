@@ -25,7 +25,7 @@ class Produto {
    */
   String toString() {
     return '= Nome: $nome'
-      + '\n= Desconto: R\$ $desconto'
+      + '\n= Desconto: $desconto %'
       + '\n= Preço (1 unidade): R\$ $preco'
       + '\n= Preço (1 unidade c/ desconto): R\$ $precoComDesconto'
     ;

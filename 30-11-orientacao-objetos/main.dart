@@ -28,12 +28,12 @@ Venda buscaInfoValoresFixos() {
   );
 
   VendaItem vendaItem2 = VendaItem(
-    produto: Produto(codigo: 1, nome: 'Processador Ryzen 5', preco: 999.99, desconto: 10), 
+    produto: Produto(codigo: 2, nome: 'Processador Ryzen 5', preco: 999.99, desconto: 10), 
     quantidade: 5
   );
 
   VendaItem vendaItem3 = VendaItem(
-    produto: Produto(codigo: 1, nome: 'Microfone BM-800', preco: 157.30, desconto: 5), 
+    produto: Produto(codigo: 3, nome: 'Microfone BM-800', preco: 157.30, desconto: 5), 
     quantidade: 8
   );
 
