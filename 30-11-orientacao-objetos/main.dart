@@ -101,7 +101,7 @@ Venda buscaInfoValoresDinamicos() {
 
     itens.add(
       VendaItem(
-        produto: Produto(codigo: produtoCodigo, nome: produtoNome, preco: produtoPreco), 
+        produto: Produto(codigo: produtoCodigo, nome: produtoNome, preco: produtoPreco, desconto: produtoDesconto), 
         quantidade: produtoQtd
       )
     );
